@@ -16,4 +16,10 @@
 
 ## 1 Oct 2022
 
-* *3 hours* Do some reading on project;s background
+* *3 hours* Do some reading on ICS, COTS and thread modelling
+
+## 2 Oct 2022
+
+* *1 hour* Setup GitHub repo and reference manager
+* *1 hour* Making meeting agendas, listing questions.
+* *3 hours* Gathering research with keywords COTS, ICS, Security.
