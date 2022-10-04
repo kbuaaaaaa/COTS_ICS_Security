@@ -1,9 +1,27 @@
+- Progress report
+    - Learned about ICS (SCADA, Protocols, PLC, etc.)
+    - Read about COTS product
+    - Learned thread modelling
+    - Set up reference manager
+    - Set up a private github repo
+    - Gather research but have not read them all yet
+
+
 - Detailed Project Outline
 
 
 - Project timeline discussions
+    The timeline I proposed :
+        - W3 : Read papers, Get familiar with attack vectors
+        - W4 : Create experiment environment. Specific ICS running specific COTS in a simple functionality system
+        - W5-6 : Design attack scenarios on different part of the environment
+        - W7-8 : Implement the attack and observe result
+        - W9 : Design the security control
+        - W10 : Test security control
+        - W11+ : TBD
 
-
+    Angelos' comment :
+    
 
 Questions
 
