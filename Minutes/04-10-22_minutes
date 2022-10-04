@@ -1,13 +1,12 @@
+Meeting 04/10/2022
+
 - Progress report
     - Learned about ICS (SCADA, Protocols, PLC, etc.)
     - Read about COTS product
-    - Learned thread modelling
+    - Learned threat modelling
     - Set up reference manager
     - Set up a private github repo
     - Gather research but have not read them all yet
-
-
-- Detailed Project Outline
 
 
 - Project timeline discussions
@@ -20,7 +19,7 @@
         - W10 : Test security control
         - W11+ : TBD
 
-    Angelos' comment :
+    Angelos' comment : Put a lot more time into literature review. Then after that I will be able to plan better
     
 
 Questions
@@ -30,20 +29,22 @@ Questions
     - How many of them should I investigate?
     - Will these product be provided?
 
-    Answer : 
-
-- The project description said "This project will also explore how vulnerabilities against COTS operating systems in ICS devices can impact the wider ICS". Will this be based on critical thinking or experiment?
-
-    Answer : 
+    Answer : I should pick specific ICS running specific COTS in a simple functionality system, preferably something I could do on my own device
 
 - Will the outcome of the project be the security control set? How do you imagine I should conduct evaluation?
 
-    Answer : 
+    Answer : That is one of the aim. I can test and prove that these works in the lab.
 
-- I have never done forensics. Can you point me to which methods/tools I should study?
-
-    Answer : 
 
 - Should we keep the same meeting time every week or should we decide week by week?
 
-    Answer : 
+    Answer : We should have meetings when there are important update or question.
+
+Plan for this week : Literature review
+
+Notes :
+- I should be done with practical parts by the end of January
+- Do a lot of research for this month
+- Place my work in comparisons to the state of the arts
+- Have a big aim and devide into main objective
+- Look into interaction of plc on cots : like workstation to plc.
