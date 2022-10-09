@@ -26,4 +26,8 @@
 
 ## Week 3
 
-* *5 hours* Reading the research I gathered + the ones Angelos sent mes
+## 3 OCT 2022
+* *5 hours* Reading the research I gathered + the ones Angelos sent me
+
+## 9 OCT 2022
+* *6 hours* Reading the research I gathered + the ones Angelos sent me
