@@ -1,0 +1,25 @@
+Hello Angelos,
+ 
+I have been reading a lot of research for the past week and I have come up with the following aims and objectives.
+ 
+Aims :
+Explore the impact of vulnerabilities introduced on ICS by COTS products
+Expose the attack surface and attack scenarios for ICS running COTS
+Present ways to mitigate the threats
+ 
+Objectives :
+Review literature general ICS vulnerabilities
+Review literature on COTS vulnerabilities
+Review analysis of cyber-attack incidents related to ICS running different COTS OS
+Design an assessment environment
+Separate assessment ICS into layers (Hardware, Software, Network, etc.)
+Create threat model on the ICS
+Implement various attacks scenarios
+Observe results of successful attack scenarios on different parts of ICS
+Produce detection and defense mechanism/Present existing works on attack mitigation
+ 
+This week I want to move on to researching for an appropriate configuration for the assessment environment. I found the Hardware-In-The-Loop testbed interesting. But I will have to see how that will go with further research.
+I am spending a lot of time reading and I am a little worried that I might be moving a little too slow. Maybe things will move faster after I have the environment set up since I have already found sources on the vulnerabilities and attack vectors for PLC, ICS protocols, etc.
+
+Regards,
+Bua.
