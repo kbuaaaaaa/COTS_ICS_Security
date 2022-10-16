@@ -30,4 +30,14 @@
 * *5 hours* Reading the research I gathered + the ones Angelos sent me
 
 ## 9 OCT 2022
-* *6 hours* Reading the research I gathered + the ones Angelos sent me
+* *6 hours* Gathering more papers, do reading on related works
+
+## Week 4
+
+## 10 OCT 2022
+* *1 hour* Definding aims and objectives of the project
+* *5 hours* Expanding research on each goals of the project
+* *0.5 hour* Writing email progress report to Angelos
+
+## 16 Oct 2022
+* 2 hours* Creating literature review document
