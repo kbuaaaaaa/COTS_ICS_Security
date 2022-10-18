@@ -41,3 +41,11 @@
 
 ## 16 Oct 2022
 * 2 hours* Creating literature review document
+
+## Week 5
+
+## 17 OCT 2022
+* *5 hours* Writing literature review
+
+## 18 OCT 2022
+* *5 hours* Writing literature review
