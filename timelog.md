@@ -49,3 +49,11 @@
 
 ## 18 OCT 2022
 * *5 hours* Writing literature review
+
+## Week 7
+
+## 4 NOV 2022
+* *6 hours* Designing virtual testbed : the framework, communication
+
+## 5 NOV 2022
+* *6 hours* Designing virtual testbed : software version, implementation
