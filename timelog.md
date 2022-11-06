@@ -57,3 +57,6 @@
 
 ## 5 NOV 2022
 * *6 hours* Designing virtual testbed : software version, implementation
+
+## 6 NOV 2022
+* *6 hours* Identifying possible attack vectors, justifying virtual testbed design
