@@ -60,3 +60,11 @@
 
 ## 6 NOV 2022
 * *6 hours* Identifying possible attack vectors, justifying virtual testbed design
+
+## Week 9
+
+## 16 NOV 2022
+* *6 hours* Implementing testbed
+
+## 17 NOV 2022
+* *6 hours* Listing attack vectors
