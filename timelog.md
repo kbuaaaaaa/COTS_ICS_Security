@@ -68,3 +68,8 @@
 
 ## 17 NOV 2022
 * *6 hours* Listing attack vectors
+
+## Week 11
+
+## 1 DEC 2022
+* *6 hours* Learning how to implement matlab simulator
