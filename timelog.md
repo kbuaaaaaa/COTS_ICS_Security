@@ -73,3 +73,9 @@
 
 ## 1 DEC 2022
 * *6 hours* Learning how to implement matlab simulator
+
+## 2 DEC 2022
+* *6 hours* Start defining Simulink water tank model
+
+## 3 DEC 2022
+* *6 hours* Implementing Simulink Model

@@ -31,7 +31,7 @@ Attack on Communication :
     - Invalid response
     - False error response
     - False measurement response
-    - Communication force Restart
+    - Communication force restart
 
 Attack on PLC :
 - DoS on PLC : Bad CRC, Fake read bomb
@@ -44,3 +44,4 @@ Plan for next week onward :
 5. Configure the plc-workstation communication (using PyModbus)
 These things should be done before 5th December, so I can proceed with the attack after exam.
 The attack scenarios would also be more detailed after I have pinned down the components in the simulation.
+
