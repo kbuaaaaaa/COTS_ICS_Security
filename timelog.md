@@ -79,3 +79,6 @@
 
 ## 3 DEC 2022
 * *6 hours* Implementing Simulink Model
+
+## 4 DEC 2022
+* *6 hours* Learning ladder logic for PLC
