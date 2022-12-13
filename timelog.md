@@ -82,3 +82,9 @@
 
 ## 4 DEC 2022
 * *6 hours* Learning ladder logic for PLC
+
+## Week 13
+
+## 13 DEC 2022
+* *2 hour* Implementing ladder logic
+* *2 hour* Setting up virtual environment
