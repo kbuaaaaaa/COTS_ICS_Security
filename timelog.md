@@ -88,3 +88,9 @@
 ## 13 DEC 2022
 * *2 hour* Implementing ladder logic
 * *2 hour* Setting up virtual environment
+
+## 14 DEC 2022
+* *3 hours* Studying Matlab Docker, Openplc Docker.
+
+## 17 DEC 2022
+* *4 hours* Modifying Matlab Program
