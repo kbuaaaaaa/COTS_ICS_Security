@@ -2,8 +2,8 @@ PROGRAM water_tank
   VAR
     High AT %IX0.0 : BOOL;
     Low AT %IX0.1 : BOOL;
-    Start AT %IX0.2 : BOOL := TRUE;
-    Stop AT %IX0.3 : BOOL := FALSE;
+    Start AT %IX0.2 : BOOL := 1;
+    Stop AT %IX0.3 : BOOL := 0;
   END_VAR
   VAR
     Master : BOOL;

@@ -1,10 +1,12 @@
 import socket
 import sys
 
+
 # Create a UDP socket
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Bind the socket to the port
-s.bind(("127.0.0.1", 9090))
+port = int(sys.argv[1])
+s.bind(("127.0.0.1", port))
 
 while True:
     print("####### Server is listening #######")
