@@ -1,18 +1,16 @@
 PROGRAM water_tank
-  VAR_INPUT
-    High : BOOL;
-    Low : BOOL;
-  END_VAR
-  VAR_OUTPUT
-    Valve_In : BOOL;
-    Valve_Out : BOOL;
-  END_VAR
-  VAR_INPUT
-    Start : BOOL;
-    Stop : BOOL;
+  VAR
+    High AT %IX0.0 : BOOL;
+    Low AT %IX0.1 : BOOL;
+    Start AT %IX0.2 : BOOL := 0;
+    Stop AT %IX0.3 : BOOL := 1;
   END_VAR
   VAR
     Master : BOOL;
+  END_VAR
+  VAR
+    Valve_In AT %QX0.0 : BOOL;
+    Valve_Out AT %QX0.1 : BOOL;
   END_VAR
 
   Master := NOT(Stop) AND (Master OR Start);

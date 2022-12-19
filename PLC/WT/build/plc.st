@@ -93,20 +93,18 @@ END_FUNCTION_BLOCK
 
 
 PROGRAM water_tank
-  VAR_INPUT
+  VAR
     High : BOOL;
     Low : BOOL;
-  END_VAR
-  VAR_OUTPUT
-    Valve_In : BOOL;
-    Valve_Out : BOOL;
-  END_VAR
-  VAR_INPUT
-    Start : BOOL;
-    Stop : BOOL;
+    Start : BOOL := 0;
+    Stop : BOOL := 1;
   END_VAR
   VAR
     Master : BOOL;
+  END_VAR
+  VAR
+    Valve_In : BOOL;
+    Valve_Out : BOOL;
   END_VAR
 
   Master := NOT(Stop) AND (Master OR Start);

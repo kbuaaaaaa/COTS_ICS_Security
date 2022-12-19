@@ -203,11 +203,11 @@ __end:
 void WATER_TANK_init__(WATER_TANK *data__, BOOL retain) {
   __INIT_VAR(data__->HIGH,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->LOW,__BOOL_LITERAL(FALSE),retain)
+  __INIT_VAR(data__->START,0,retain)
+  __INIT_VAR(data__->STOP,1,retain)
+  __INIT_VAR(data__->MASTER,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->VALVE_IN,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->VALVE_OUT,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->START,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->STOP,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->MASTER,__BOOL_LITERAL(FALSE),retain)
 }
 
 // Code part
