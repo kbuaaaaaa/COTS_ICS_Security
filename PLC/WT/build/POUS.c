@@ -203,8 +203,8 @@ __end:
 void WATER_TANK_init__(WATER_TANK *data__, BOOL retain) {
   __INIT_VAR(data__->HIGH,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->LOW,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->START,0,retain)
-  __INIT_VAR(data__->STOP,1,retain)
+  __INIT_VAR(data__->START,__BOOL_LITERAL(TRUE),retain)
+  __INIT_VAR(data__->STOP,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->MASTER,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->VALVE_IN,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->VALVE_OUT,__BOOL_LITERAL(FALSE),retain)
@@ -215,8 +215,8 @@ void WATER_TANK_body__(WATER_TANK *data__) {
   // Initialise TEMP variables
 
   __SET_VAR(data__->,MASTER,,(!(__GET_VAR(data__->STOP,)) && (__GET_VAR(data__->MASTER,) || __GET_VAR(data__->START,))));
-  __SET_VAR(data__->,VALVE_OUT,,((!(__GET_VAR(data__->LOW,)) && (__GET_VAR(data__->HIGH,) || __GET_VAR(data__->VALVE_OUT,))) && __GET_VAR(data__->MASTER,)));
-  __SET_VAR(data__->,VALVE_IN,,((!(__GET_VAR(data__->HIGH,)) && ((__GET_VAR(data__->LOW,) || __GET_VAR(data__->START,)) || __GET_VAR(data__->VALVE_IN,))) && __GET_VAR(data__->MASTER,)));
+  __SET_VAR(data__->,VALVE_OUT,,((__GET_VAR(data__->LOW,) && (__GET_VAR(data__->HIGH,) || __GET_VAR(data__->VALVE_OUT,))) && __GET_VAR(data__->MASTER,)));
+  __SET_VAR(data__->,VALVE_IN,,((!(__GET_VAR(data__->HIGH,)) && ((!(__GET_VAR(data__->LOW,)) || __GET_VAR(data__->START,)) || __GET_VAR(data__->VALVE_IN,))) && __GET_VAR(data__->MASTER,)));
 
   goto __end;
 
