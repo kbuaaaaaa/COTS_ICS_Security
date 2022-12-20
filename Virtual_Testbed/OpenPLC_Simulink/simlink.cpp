@@ -347,6 +347,8 @@ void *sendSimulinkData(void *args)
 		if (send_len < 0)
 		{
 			printf("Error sending data to simulink on socket %d\n", socket_fd);
+		} else {
+			printf("Sending data to simulink on port %d value %d\n", port,value);
 		}
 
 		sleep_ms(comm_delay);
@@ -355,7 +357,7 @@ void *sendSimulinkData(void *args)
 
 //-----------------------------------------------------------------------------
 // Create the socket and bind it. Returns the file descriptor for the socket
-// created.
+// created. 
 //-----------------------------------------------------------------------------
 int createUDPServer(int port)
 {
@@ -435,7 +437,7 @@ void *receiveSimulinkData(void *arg)
 		else
 		{
 			double valueRcv = convertBufferToDouble(rcv_buffer);
-
+			printf("Receiving data from %d value %lf\n",port,valueRcv);
 			/*
 			//DEBUG
 			printf("Received packet from %s:%d\n", inet_ntoa(client.sin_addr), ntohs(client.sin_port));
@@ -664,6 +666,6 @@ int main()
 		printf("High: %d\tLow: %d\t\tValve In: %d\t\tValve Out: %d\n", stations_data[0].digitalIn[0], stations_data[0].digitalIn[1], stations_data[0].digitalOut[0], stations_data[0].digitalOut[1]);
 		pthread_mutex_unlock(&bufferLock);
 
-		sleep_ms(3000);
+		sleep_ms(300);
 	}
 }

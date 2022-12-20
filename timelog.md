@@ -101,3 +101,5 @@
 * *4 hours* Configuring Docker container to work with the simlink interface
 * *1 hour* Modifying the PLC physical addressing to match the simlink and modbus scheme
 * *2 hours* Modify Matlab program to work with simlink interface
+
+## 20 DEC 2022
