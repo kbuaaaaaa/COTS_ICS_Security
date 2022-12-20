@@ -4,14 +4,16 @@ services:
     shm_size: 512M
     environment:
       - MLM_LICENSE_FILE = ./Matlab/license.lic
-    command: /bin/run.sh -browser
+    command: -vnc
+    volumes:
+      - ./Matlab/Water_Tank:/home/matlab/Documents/MATLAB/Water_Tank
     expose:
       - 10001
       - 10002
       - 10003
       - 10004
     ports:
-      - 8888:8888
+      - 6080:6080
     networks:
       - ics
 
