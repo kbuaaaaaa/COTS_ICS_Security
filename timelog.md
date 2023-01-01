@@ -111,3 +111,5 @@
 
 ## 1 JAN 2023
 * *2 hours* Download required software on VM
+* *3 hours* Configure networking between host and vm
+* *2 hours* Confirming the implementation of modbus on OpenPLC
