@@ -6,7 +6,7 @@ import sys
 s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 # Bind the socket to the port
 port = int(sys.argv[1])
-s.bind(("127.0.0.1", port))
+s.bind(("0.0.0.0", port))
 
 while True:
     print("####### Server is listening #######")

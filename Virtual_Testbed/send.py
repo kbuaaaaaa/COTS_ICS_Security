@@ -9,6 +9,5 @@ port = int(sys.argv[1])
 s.connect(("127.0.0.1", port))
 
 while True:
-    print("####### Sending #######")
     data = 0
     s.send(data.to_bytes(2, 'big'))
