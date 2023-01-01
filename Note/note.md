@@ -6,16 +6,12 @@ PLC-Simulink-Docker
 - Someone else's : https://github.com/Fortiphyd/GRFICSv2/blob/master/README.md
 - Ladder logic program : https://www.sanfoundry.com/plc-program-control-level-single-tank/
 - Santiago's github link : https://github.com/sfl0r3nz05/ICSVirtual , https://github.com/sfl0r3nz05/DepSimModStandAppDocker
+- Windows VM on Docker container : https://medium.com/axon-technologies/installing-a-windows-virtual-machine-in-a-linux-docker-container-c78e4c3f9ba1
+
 
 
 Some attack links :
 - https://connormcgarr.github.io/eko2019-exe/
-
-What to do :
-- Program Simulink water tank
-- Program PLC for water tank on openPLC
-- Setup docker running windows 10, linux with plc program loaded, linux with water tank running
-- Setup docker network
 
 
 Reconnaissance
@@ -40,11 +36,9 @@ Attack on PLC :
 - DoS on PLC : Bad CRC, Fake read bomb
 
 Plan for next week onward :
-1. Study online resources for Simulink\Factory IO, OpenPLC.
-2. Implement the water tank simulator. 
-3. Implement PLC program.
-4. Configure the simulation-plc communication. (Docker bridge?)
+1. Study online resources for Simulink\Factory IO, OpenPLC. : Done
+2. Implement the water tank simulator. : Done
+3. Implement PLC program. : Done
+4. Configure the simulation-plc communication. : Done with improvements to be made
 5. Configure the plc-workstation communication (using PyModbus)
-These things should be done before 5th December, so I can proceed with the attack after exam.
-The attack scenarios would also be more detailed after I have pinned down the components in the simulation.
 

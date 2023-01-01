@@ -103,3 +103,11 @@
 * *2 hours* Modify Matlab program to work with simlink interface
 
 ## 20 DEC 2022
+* *5 hours* Attempt to synchronise the communication better. failed
+
+## 22 DEC 2022
+* *1 hour* Making decision on workstation platform
+* *3 hours* Creating VM
+
+## 1 JAN 2023
+* *2 hours* Download required software on VM
