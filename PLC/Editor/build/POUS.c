@@ -249,7 +249,6 @@ static inline UINT __WATER_TANK_MOVE__UINT__UINT3(BOOL EN,
 
 void WATER_TANK_init__(WATER_TANK *data__, BOOL retain) {
   __INIT_VAR(data__->VALVE_IN,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->VALVE_IN0,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->VALVE_OUT,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->START,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->STOP,__BOOL_LITERAL(FALSE),retain)

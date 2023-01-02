@@ -1,7 +1,6 @@
 PROGRAM water_tank
   VAR
     Valve_In AT %QX0.0 : BOOL;
-    Valve_In0 AT %QX0.1 : BOOL;
     Valve_Out AT %QX0.1 : BOOL;
     Start AT %QX0.2 : BOOL;
     Stop AT %QX0.3 : BOOL;

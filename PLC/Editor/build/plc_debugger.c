@@ -95,7 +95,6 @@ typedef const struct {
 
 static const dbgvardsc_t dbgvardsc[] = {
 {&(RES0__INSTANCE0.VALVE_IN), BOOL_ENUM},
-{&(RES0__INSTANCE0.VALVE_IN0), BOOL_ENUM},
 {&(RES0__INSTANCE0.VALVE_OUT), BOOL_ENUM},
 {&(RES0__INSTANCE0.START), BOOL_ENUM},
 {&(RES0__INSTANCE0.STOP), BOOL_ENUM},

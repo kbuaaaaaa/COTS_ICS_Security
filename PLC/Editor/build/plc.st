@@ -95,7 +95,6 @@ END_FUNCTION_BLOCK
 PROGRAM water_tank
   VAR
     Valve_In : BOOL;
-    Valve_In0 : BOOL;
     Valve_Out : BOOL;
     Start : BOOL;
     Stop : BOOL;

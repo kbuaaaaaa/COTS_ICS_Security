@@ -107,7 +107,6 @@ typedef struct {
 
   // PROGRAM private variables - TEMP, private and located variables
   __DECLARE_VAR(BOOL,VALVE_IN)
-  __DECLARE_VAR(BOOL,VALVE_IN0)
   __DECLARE_VAR(BOOL,VALVE_OUT)
   __DECLARE_VAR(BOOL,START)
   __DECLARE_VAR(BOOL,STOP)
