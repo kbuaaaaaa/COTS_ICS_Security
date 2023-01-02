@@ -1,15 +1,15 @@
 PROGRAM water_tank
   VAR
+    Valve_In AT %QX0.0 : BOOL;
+    Valve_Out AT %QX0.1 : BOOL;
     Start AT %QX0.2 : BOOL;
     Stop AT %QX0.3 : BOOL;
     High AT %IX0.0 : BOOL;
     Low AT %IX0.1 : BOOL;
+    Master AT %IX0.2 : BOOL;
     Height AT %IW0 : UINT;
     High_Limit AT %QW0 : UINT;
     Low_Limit AT %QW1 : UINT;
-    Master AT %IX0.2 : BOOL;
-    Valve_In AT %QX0.0 : BOOL;
-    Valve_Out AT %QX0.1 : BOOL;
   END_VAR
   VAR
     _TMP_GE19_ENO : BOOL;

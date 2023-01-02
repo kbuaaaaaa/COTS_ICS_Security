@@ -235,16 +235,16 @@ static inline BOOL __WATER_TANK_GE__BOOL__UINT2(BOOL EN,
 }
 
 void WATER_TANK_init__(WATER_TANK *data__, BOOL retain) {
+  __INIT_VAR(data__->VALVE_IN,__BOOL_LITERAL(FALSE),retain)
+  __INIT_VAR(data__->VALVE_OUT,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->START,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->STOP,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->HIGH,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->LOW,__BOOL_LITERAL(FALSE),retain)
+  __INIT_VAR(data__->MASTER,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->HEIGHT,0,retain)
   __INIT_VAR(data__->HIGH_LIMIT,0,retain)
   __INIT_VAR(data__->LOW_LIMIT,0,retain)
-  __INIT_VAR(data__->MASTER,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->VALVE_IN,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->VALVE_OUT,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->_TMP_GE19_ENO,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->_TMP_GE19_OUT,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->_TMP_GE21_ENO,__BOOL_LITERAL(FALSE),retain)

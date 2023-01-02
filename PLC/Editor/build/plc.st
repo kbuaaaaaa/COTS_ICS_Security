@@ -94,16 +94,16 @@ END_FUNCTION_BLOCK
 
 PROGRAM water_tank
   VAR
+    Valve_In : BOOL;
+    Valve_Out : BOOL;
     Start : BOOL;
     Stop : BOOL;
     High : BOOL;
     Low : BOOL;
+    Master : BOOL;
     Height : UINT;
     High_Limit : UINT;
     Low_Limit : UINT;
-    Master : BOOL;
-    Valve_In : BOOL;
-    Valve_Out : BOOL;
   END_VAR
   VAR
     _TMP_GE19_ENO : BOOL;
