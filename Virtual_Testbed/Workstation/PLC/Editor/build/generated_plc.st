@@ -31,7 +31,7 @@ PROGRAM water_tank
       Low := _TMP_GE21_OUT;
   END_IF;
   Valve_Out := Low AND (High OR Valve_Out) AND Master;
-  Valve_In := NOT(High) AND (Low OR Start OR Valve_In) AND Master;
+  Valve_In := NOT(High) AND (NOT(Low) OR Valve_In) AND Master;
   _TMP_MOVE32_OUT := MOVE(EN := TRUE, IN := Height_In, ENO => _TMP_MOVE32_ENO);
   IF _TMP_MOVE32_ENO THEN
       Height_Out := _TMP_MOVE32_OUT;
