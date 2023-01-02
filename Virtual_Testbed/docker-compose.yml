@@ -34,6 +34,7 @@ services:
       - 6668
     ports:
       - 8080:8080
+      - 502:502
     networks:
       - ics
 
