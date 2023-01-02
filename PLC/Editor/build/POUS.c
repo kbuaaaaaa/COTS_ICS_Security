@@ -290,7 +290,7 @@ void WATER_TANK_body__(WATER_TANK *data__) {
   if (__GET_VAR(data__->_TMP_GE21_ENO,)) {
     __SET_VAR(data__->,LOW,,__GET_VAR(data__->_TMP_GE21_OUT,));
   };
-  __SET_VAR(data__->,VALVE_OUT,,((!(__GET_VAR(data__->LOW,)) && (__GET_VAR(data__->HIGH,) || __GET_VAR(data__->VALVE_OUT,))) && __GET_VAR(data__->MASTER,)));
+  __SET_VAR(data__->,VALVE_OUT,,((__GET_VAR(data__->LOW,) && (__GET_VAR(data__->HIGH,) || __GET_VAR(data__->VALVE_OUT,))) && __GET_VAR(data__->MASTER,)));
   __SET_VAR(data__->,VALVE_IN,,((!(__GET_VAR(data__->HIGH,)) && ((__GET_VAR(data__->LOW,) || __GET_VAR(data__->START,)) || __GET_VAR(data__->VALVE_IN,))) && __GET_VAR(data__->MASTER,)));
   __SET_VAR(data__->,_TMP_MOVE32_OUT,,__WATER_TANK_MOVE__UINT__UINT3(
     (BOOL)__BOOL_LITERAL(TRUE),

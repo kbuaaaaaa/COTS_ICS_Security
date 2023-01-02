@@ -116,3 +116,4 @@
 
 ## 2 JAN 2023
 * *1 hour* Watch ScadaBR tutorial
+* *5 hours* Modifying process and plc to work with modbus
