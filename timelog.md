@@ -117,3 +117,11 @@
 ## 2 JAN 2023
 * *1 hour* Watch ScadaBR tutorial
 * *5 hours* Modifying process and plc to work with modbus
+* *2 hours* Fix PLC logic
+
+## 3 JAN 2023
+* *2 hours* Fix PLC logic & add reset functionality
+* *3 hours* Add data source and watch list on ScadaBR
+
+## 4 JAN 2023
+* *3 hours* Create ScadaBR graphics
