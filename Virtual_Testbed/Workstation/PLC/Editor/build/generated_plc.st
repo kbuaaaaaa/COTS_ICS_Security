@@ -4,7 +4,6 @@ PROGRAM water_tank
     Valve_Out AT %QX0.1 : BOOL;
     Start AT %QX0.2 : BOOL;
     Stop AT %QX0.3 : BOOL;
-    Reset AT %QX0.4 : BOOL;
     High AT %IX0.0 : BOOL;
     Low AT %IX0.1 : BOOL;
     Master AT %IX0.2 : BOOL;
@@ -12,11 +11,8 @@ PROGRAM water_tank
     Height_Out AT %QW0 : UINT;
     High_Limit AT %QW1 : UINT;
     Low_Limit AT %QW2 : UINT;
-    Set_Value AT %QW3 : UINT;
   END_VAR
   VAR
-    _TMP_MOVE36_ENO : BOOL;
-    _TMP_MOVE36_OUT : UINT;
     _TMP_GE19_ENO : BOOL;
     _TMP_GE19_OUT : BOOL;
     _TMP_GT35_ENO : BOOL;
@@ -26,13 +22,6 @@ PROGRAM water_tank
   END_VAR
 
   Master := NOT(Stop) AND (Master OR Start);
-  _TMP_MOVE36_OUT := MOVE(EN := Reset AND Master, IN := Set_Value, ENO => _TMP_MOVE36_ENO);
-  IF _TMP_MOVE36_ENO THEN
-    Reset := FALSE; (*reset*)
-  END_IF;
-  IF _TMP_MOVE36_ENO THEN
-      Height_In := _TMP_MOVE36_OUT;
-  END_IF;
   _TMP_GE19_OUT := GE(EN := Master, IN1 := Height_In, IN2 := High_Limit, ENO => _TMP_GE19_ENO);
   IF _TMP_GE19_ENO THEN
       High := _TMP_GE19_OUT;

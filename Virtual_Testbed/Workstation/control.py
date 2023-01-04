@@ -23,10 +23,6 @@ def SetLowLimit():
 def SetHighLimit():
     client.write_register(1,int(high.get()))
 
-def Reset():
-    client.write_coil(4,True)
-    client.write_register(3,int(setValue.get()))
-
 appName = Label(control,text="Control Panel",font=("arial",25,"bold"))
 appName.place(x=125, y=10,height=40,width=300)
 
@@ -53,14 +49,5 @@ high.place(x=200, y=160,height=40,width=150)
 
 highset = Button(control,text="Set Value",font=("arial",20),command=SetHighLimit)
 highset.place(x=350, y=160,height=40,width=150)
-
-reset = Label(control,text="Reset Height:",font=("arial",10,"bold"))
-reset.place(x=50, y=210,height=40,width=150)
-
-setValue = Entry(control,font=("arial",20))
-setValue.place(x=200, y=210,height=40,width=150)
-
-setreset = Button(control,text="Reset",font=("arial",20),command=Reset)
-setreset.place(x=350, y=210,height=40,width=150)
 
 control.mainloop()
