@@ -200,7 +200,20 @@ __end:
 
 
 
-static inline BOOL __WATER_TANK_GE__BOOL__UINT1(BOOL EN,
+static inline UINT __WATER_TANK_MOVE__UINT__UINT1(BOOL EN,
+  UINT IN,
+  WATER_TANK *data__)
+{
+  UINT __res;
+  BOOL __TMP_ENO = __GET_VAR(data__->_TMP_MOVE36_ENO,);
+  __res = MOVE__UINT__UINT(EN,
+    &__TMP_ENO,
+    IN);
+  __SET_VAR(,data__->_TMP_MOVE36_ENO,,__TMP_ENO);
+  return __res;
+}
+
+static inline BOOL __WATER_TANK_GE__BOOL__UINT2(BOOL EN,
   UINT __PARAM_COUNT,
   UINT IN1,
   UINT IN2,
@@ -217,24 +230,24 @@ static inline BOOL __WATER_TANK_GE__BOOL__UINT1(BOOL EN,
   return __res;
 }
 
-static inline BOOL __WATER_TANK_GE__BOOL__UINT2(BOOL EN,
+static inline BOOL __WATER_TANK_GT__BOOL__UINT3(BOOL EN,
   UINT __PARAM_COUNT,
   UINT IN1,
   UINT IN2,
   WATER_TANK *data__)
 {
   BOOL __res;
-  BOOL __TMP_ENO = __GET_VAR(data__->_TMP_GE21_ENO,);
-  __res = GE__BOOL__UINT(EN,
+  BOOL __TMP_ENO = __GET_VAR(data__->_TMP_GT35_ENO,);
+  __res = GT__BOOL__UINT(EN,
     &__TMP_ENO,
     __PARAM_COUNT,
     IN1,
     IN2);
-  __SET_VAR(,data__->_TMP_GE21_ENO,,__TMP_ENO);
+  __SET_VAR(,data__->_TMP_GT35_ENO,,__TMP_ENO);
   return __res;
 }
 
-static inline UINT __WATER_TANK_MOVE__UINT__UINT3(BOOL EN,
+static inline UINT __WATER_TANK_MOVE__UINT__UINT4(BOOL EN,
   UINT IN,
   WATER_TANK *data__)
 {
@@ -252,6 +265,7 @@ void WATER_TANK_init__(WATER_TANK *data__, BOOL retain) {
   __INIT_VAR(data__->VALVE_OUT,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->START,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->STOP,__BOOL_LITERAL(FALSE),retain)
+  __INIT_VAR(data__->RESET,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->HIGH,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->LOW,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->MASTER,__BOOL_LITERAL(FALSE),retain)
@@ -259,10 +273,13 @@ void WATER_TANK_init__(WATER_TANK *data__, BOOL retain) {
   __INIT_VAR(data__->HEIGHT_OUT,0,retain)
   __INIT_VAR(data__->HIGH_LIMIT,0,retain)
   __INIT_VAR(data__->LOW_LIMIT,0,retain)
+  __INIT_VAR(data__->SET_VALUE,0,retain)
+  __INIT_VAR(data__->_TMP_MOVE36_ENO,__BOOL_LITERAL(FALSE),retain)
+  __INIT_VAR(data__->_TMP_MOVE36_OUT,0,retain)
   __INIT_VAR(data__->_TMP_GE19_ENO,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->_TMP_GE19_OUT,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->_TMP_GE21_ENO,__BOOL_LITERAL(FALSE),retain)
-  __INIT_VAR(data__->_TMP_GE21_OUT,__BOOL_LITERAL(FALSE),retain)
+  __INIT_VAR(data__->_TMP_GT35_ENO,__BOOL_LITERAL(FALSE),retain)
+  __INIT_VAR(data__->_TMP_GT35_OUT,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->_TMP_MOVE32_ENO,__BOOL_LITERAL(FALSE),retain)
   __INIT_VAR(data__->_TMP_MOVE32_OUT,0,retain)
 }
@@ -272,7 +289,17 @@ void WATER_TANK_body__(WATER_TANK *data__) {
   // Initialise TEMP variables
 
   __SET_VAR(data__->,MASTER,,(!(__GET_VAR(data__->STOP,)) && (__GET_VAR(data__->MASTER,) || __GET_VAR(data__->START,))));
-  __SET_VAR(data__->,_TMP_GE19_OUT,,__WATER_TANK_GE__BOOL__UINT1(
+  __SET_VAR(data__->,_TMP_MOVE36_OUT,,__WATER_TANK_MOVE__UINT__UINT1(
+    (BOOL)(__GET_VAR(data__->RESET,) && __GET_VAR(data__->MASTER,)),
+    (UINT)__GET_VAR(data__->SET_VALUE,),
+    data__));
+  if (__GET_VAR(data__->_TMP_MOVE36_ENO,)) {
+    __SET_VAR(data__->,RESET,,__BOOL_LITERAL(FALSE));
+  };
+  if (__GET_VAR(data__->_TMP_MOVE36_ENO,)) {
+    __SET_VAR(data__->,HEIGHT_IN,,__GET_VAR(data__->_TMP_MOVE36_OUT,));
+  };
+  __SET_VAR(data__->,_TMP_GE19_OUT,,__WATER_TANK_GE__BOOL__UINT2(
     (BOOL)__GET_VAR(data__->MASTER,),
     (UINT)2,
     (UINT)__GET_VAR(data__->HEIGHT_IN,),
@@ -281,18 +308,18 @@ void WATER_TANK_body__(WATER_TANK *data__) {
   if (__GET_VAR(data__->_TMP_GE19_ENO,)) {
     __SET_VAR(data__->,HIGH,,__GET_VAR(data__->_TMP_GE19_OUT,));
   };
-  __SET_VAR(data__->,_TMP_GE21_OUT,,__WATER_TANK_GE__BOOL__UINT2(
+  __SET_VAR(data__->,_TMP_GT35_OUT,,__WATER_TANK_GT__BOOL__UINT3(
     (BOOL)__GET_VAR(data__->MASTER,),
     (UINT)2,
     (UINT)__GET_VAR(data__->HEIGHT_IN,),
     (UINT)__GET_VAR(data__->LOW_LIMIT,),
     data__));
-  if (__GET_VAR(data__->_TMP_GE21_ENO,)) {
-    __SET_VAR(data__->,LOW,,__GET_VAR(data__->_TMP_GE21_OUT,));
+  if (__GET_VAR(data__->_TMP_GT35_ENO,)) {
+    __SET_VAR(data__->,LOW,,__GET_VAR(data__->_TMP_GT35_OUT,));
   };
   __SET_VAR(data__->,VALVE_OUT,,((__GET_VAR(data__->LOW,) && (__GET_VAR(data__->HIGH,) || __GET_VAR(data__->VALVE_OUT,))) && __GET_VAR(data__->MASTER,)));
-  __SET_VAR(data__->,VALVE_IN,,((!(__GET_VAR(data__->HIGH,)) && (!(__GET_VAR(data__->LOW,)) || __GET_VAR(data__->VALVE_IN,))) && __GET_VAR(data__->MASTER,)));
-  __SET_VAR(data__->,_TMP_MOVE32_OUT,,__WATER_TANK_MOVE__UINT__UINT3(
+  __SET_VAR(data__->,VALVE_IN,,((!(__GET_VAR(data__->HIGH,)) && ((!(__GET_VAR(data__->LOW,)) || !(__GET_VAR(data__->VALVE_OUT,))) || __GET_VAR(data__->VALVE_IN,))) && __GET_VAR(data__->MASTER,)));
+  __SET_VAR(data__->,_TMP_MOVE32_OUT,,__WATER_TANK_MOVE__UINT__UINT4(
     (BOOL)__BOOL_LITERAL(TRUE),
     (UINT)__GET_VAR(data__->HEIGHT_IN,),
     data__));
