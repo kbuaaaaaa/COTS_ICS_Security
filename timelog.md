@@ -125,3 +125,7 @@
 
 ## 4 JAN 2023
 * *3 hours* Create ScadaBR graphics
+
+## 5 JAN 2023
+* *2 hours* Configure NAT network in Virtualbox
+* *1 hour* Create attacker vm and deploy onto the NAT network
