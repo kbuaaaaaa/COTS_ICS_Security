@@ -22,23 +22,27 @@ Reconnaissance
 Attack on workstation :
 - Reverse TCP using Metasploit
 - Attempt at ROP : Bypassing ASLR 
-- DoS on Docker container
 
-Attack on Communication :
-- MitM between PLC-PLC and PLC-Workstation :
-    - ARP poisoning
+Attack on Communication : Make sure to understand Modbus architecture and security mechanism.
+- MitM between PLC-Workstation :
+    - ARP poisoning : Display false status on workstation, Block the workstation from giving PLC the commands
+        - Create a phantom PLC
+            - Make decisions on what phantom PLC should do
+        - ScadaBR will try to connect to the PLC on port 502 (the modbus port)
+        - Race the correct PLC to connect with ScadaBR.
     - Invalid response
-    - False error response
+        - Forge a Modbus message for a variable in PLC or in Workstation with wrong data type or smth.
+        - Can try both ways since both PLC and Workstation is open to Modbus connection, doesnt seem to have authentication
     - False measurement response
+        - Forge a Modbus message from PLC to Workstation with False Height Level
     - Communication force restart
+        - Not sure how to do this yet
 
 Attack on PLC :
-- DoS on PLC : Bad CRC, Fake read bomb
-
-Plan for next week onward :
-1. Study online resources for Simulink\Factory IO, OpenPLC. : Done
-2. Implement the water tank simulator. : Done
-3. Implement PLC program. : Done
-4. Configure the simulation-plc communication. : Done with improvements to be made
-5. Configure the plc-workstation communication (using PyModbus)
+    - DoS on PLC : Bad CRC, Fake read bomb
+        - Accidentally did this already while trying to synchronise the communication
+        - But how is this related to OS vulnerability
+    - DoS on Docker container
+        - Needs more research
+        - This could be a bonus to os
 

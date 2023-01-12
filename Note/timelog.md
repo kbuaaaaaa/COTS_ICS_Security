@@ -129,3 +129,9 @@
 ## 5 JAN 2023
 * *2 hours* Configure NAT network in Virtualbox
 * *1 hour* Create attacker vm and deploy onto the NAT network
+
+## Week 1
+
+## 12 JAN 2023
+* *1 hour* Look for research online
+* *1 hour* Read some research
