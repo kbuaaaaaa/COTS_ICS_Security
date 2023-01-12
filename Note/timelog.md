@@ -131,6 +131,8 @@
 * *1 hour* Create attacker vm and deploy onto the NAT network
 
 ## Week 1
+## 11 JAN 2023
+* *0.5 hour* Check if the testbed still works with new network option 
 
 ## 12 JAN 2023
 * *1 hour* Look for research online
