@@ -137,3 +137,7 @@
 ## 12 JAN 2023
 * *1 hour* Look for research online
 * *1 hour* Read some research
+
+## 14 JAN 2023
+* *5 hours* Reconfiguring the network
+* *5 hours* ARP poisoning and packet sniffing
