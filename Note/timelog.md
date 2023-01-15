@@ -141,3 +141,8 @@
 ## 14 JAN 2023
 * *5 hours* Reconfiguring the network
 * *5 hours* ARP poisoning and packet sniffing
+
+## 15 JAN 2023
+* *4 hours* Being stupid and having trouble doing the ARP from yesterday. Turned out the router did not have enough RAM.
+* *2 hours* Analyse packets
+* *1 hours* Read about scapy 
