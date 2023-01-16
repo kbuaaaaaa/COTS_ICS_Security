@@ -9,9 +9,22 @@ Then I was able to capture all the traffic and see their content.
 From observation:
 ScadaBR make 4 types of request every to the PLC ~300ms
 1. Read Coils
-4. Read Input Register
+4. Read Input Register <- Target
 3. Read Holding Register
 2. Read Discrete Input
+
+The Modbus layer details :
+- Transaction Identifier (2 Bytes?) : Modbus uses the same Transaction identifier for the Query and its corresponding response.
+- Protocol Identifier (2 Bytes) : Always 0
+- Length (2 Bytes) : Number of bytes after the length
+- Unit Identifier (1 Byte) : Slave ID?
+- Function Code (1 Byte)
+Query :
+- Reference Number : Offset
+- Word Count : # of Register being queried
+Respond : 
+- Byte Count : Number of Bytes for the data
+- Data : For Analog register from left to right. For Digital register from right to left. 
 
 Since we know this is a water tank, the varying variable will be the level of water. We observe that to be the input register of the PLC.
 When starting and stopping PLC, workstation sent 5. Write Single Coil function packet.

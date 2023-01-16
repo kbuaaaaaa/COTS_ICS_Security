@@ -146,3 +146,8 @@
 * *4 hours* Being stupid and having trouble doing the ARP from yesterday. Turned out the router did not have enough RAM.
 * *2 hours* Analyse packets
 * *1 hours* Read about scapy 
+
+## Week 2
+
+## 16 JAN 2023
+* *2 hours* Analyse packets, note
