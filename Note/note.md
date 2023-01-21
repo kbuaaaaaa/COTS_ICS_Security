@@ -12,6 +12,7 @@ PLC-Simulink-Docker
 
 Some attack links :
 - https://connormcgarr.github.io/eko2019-exe/
+- TCP Reset : https://gist.github.com/spinpx/263a2ed86f974a55d35cf6c3a2541dc2
 
 
 Reconnaissance
@@ -46,3 +47,17 @@ Attack on PLC :
         - Needs more research
         - This could be a bonus to os
 
+Attacks : Done by 24th Jan
+- Have two more attack vector
+- Do combinations of attack. Attack at different times, attack at the same time
+- Express the attack in MITRE framework : more industrialised
+
+Draft Dissertation : Done by 25th Jan
+- Rough structure of the dissertation
+
+Analysis :
+- Time series analysis of the traffic
+- Show correlation/characteristics of the normal traffic
+- Create matrix to be able to deduce abnormal traffic during attacks
+
+Methodology and Result : Done by 15th Feb

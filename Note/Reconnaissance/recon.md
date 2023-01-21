@@ -17,7 +17,7 @@ The Modbus layer details :
 - Transaction Identifier (2 Bytes?) : Modbus uses the same Transaction identifier for the Query and its corresponding response.
 - Protocol Identifier (2 Bytes) : Always 0
 - Length (2 Bytes) : Number of bytes after the length
-- Unit Identifier (1 Byte) : Slave ID?
+- Unit Identifier (1 Byte) : How many frames the response from the PLC is comprised of
 - Function Code (1 Byte)
 Query :
 - Reference Number : Offset
@@ -29,3 +29,4 @@ Respond :
 Since we know this is a water tank, the varying variable will be the level of water. We observe that to be the input register of the PLC.
 When starting and stopping PLC, workstation sent 5. Write Single Coil function packet.
 
+sudo sysctl -w net.ipv4.ip_forward=1 
