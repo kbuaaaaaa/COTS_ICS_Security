@@ -1,7 +1,7 @@
 from tkinter import *
 from pymodbus.client import ModbusTcpClient
 
-client = ModbusTcpClient('10.0.2.2')
+client = ModbusTcpClient('192.168.88.10')
 client.connect()
 
 control = Tk()
