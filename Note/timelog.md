@@ -151,3 +151,17 @@
 
 ## 16 JAN 2023
 * *2 hours* Analyse packets, note
+
+## 18 JAN 2023
+* *1 hour* Set up for meeting
+* *0.5 hour* Supervisor meeting
+
+## 19 JAN 2023
+* *2.5 hours*  Collect traffic data with ARP poisoning
+
+## 21 JAN 2023
+* *8 hours* Write script for injection attack1
+
+## 22 JAN 2023
+* *5 hours* Debug injection attack
+* *3 hours* Collect traffic data for injection attack1
