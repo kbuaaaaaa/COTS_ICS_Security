@@ -1,6 +1,0 @@
-1. Workstation to PLC : Inject new height limit
-2. PLC to Workstation : Inject false height, false height limit
-3. Both together
-
-Workstation will not be able to see the real height and height limit of the PLC
-while the real height of the water tank would be higher than it should.
