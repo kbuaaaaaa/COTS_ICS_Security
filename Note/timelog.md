@@ -165,3 +165,27 @@
 ## 22 JAN 2023
 * *5 hours* Debug injection attack
 * *3 hours* Collect traffic data for injection attack1
+
+## Week 3
+
+## 23 JAN 2023
+* *2 hours* DoS on workstation
+
+## 24 JAN 2023
+* *2 hours* Read bomb on PLC
+
+## 25 JAN 2023
+* *3 hours* Drafting dissertation structure
+
+## 27 JAN 2023
+* *4 hours* Reverse TCP attemp
+
+## 29 JAN 2023
+* *1 hour* Reverse TCP attack
+* *2 hours* Do Reverse TCP on a backup machine
+* *5 hours* Try open materpreter shell on target
+
+## WEEK 4
+
+## 30 JAN 2023
+* *6 hours* Attacking workstation

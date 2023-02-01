@@ -7,57 +7,15 @@ PLC-Simulink-Docker
 - Ladder logic program : https://www.sanfoundry.com/plc-program-control-level-single-tank/
 - Santiago's github link : https://github.com/sfl0r3nz05/ICSVirtual , https://github.com/sfl0r3nz05/DepSimModStandAppDocker
 - Windows VM on Docker container : https://medium.com/axon-technologies/installing-a-windows-virtual-machine-in-a-linux-docker-container-c78e4c3f9ba1
+- Create service : https://www.ibm.com/docs/en/spectrum-protect/8.1.0?topic=systems-windows-manually-creating-configuring-windows-service
 
 
 
 Some attack links :
 - https://connormcgarr.github.io/eko2019-exe/
 - TCP Reset : https://gist.github.com/spinpx/263a2ed86f974a55d35cf6c3a2541dc2
+- Reverse TCP : https://resources.infosecinstitute.com/topic/how-to-attack-windows-10-machine-with-metasploit-on-kali-linux/
+- FUD payload : https://infosecwriteups.com/how-i-am-winning-battle-with-windows-10-and-11-security-and-avoiding-detection-6ea9f954b2a7
+- Persistence 1 : https://resources.infosecinstitute.com/topic/how-to-attack-windows-10-machine-with-metasploit-on-kali-linux/
+- Persistence 2 : https://hackmag.com/security/persistence-cheatsheet/
 
-
-Reconnaissance
-- Nmap network scan
-- Wireshark packet analyse
-- Try to identify devices on the network, their address, and the operations perform.
-
-Attack on workstation :
-- Reverse TCP using Metasploit
-- Attempt at ROP : Bypassing ASLR 
-
-Attack on Communication : Make sure to understand Modbus architecture and security mechanism.
-- MitM between PLC-Workstation :
-    - ARP poisoning : Display false status on workstation, Block the workstation from giving PLC the commands
-        - Create a phantom PLC
-            - Make decisions on what phantom PLC should do
-        - ScadaBR will try to connect to the PLC on port 502 (the modbus port)
-        - Race the correct PLC to connect with ScadaBR.
-    - Invalid response
-        - Forge a Modbus message for a variable in PLC or in Workstation with wrong data type or smth.
-        - Can try both ways since both PLC and Workstation is open to Modbus connection, doesnt seem to have authentication
-    - False measurement response
-        - Forge a Modbus message from PLC to Workstation with False Height Level
-    - Communication force restart
-        - Not sure how to do this yet
-
-Attack on PLC :
-    - DoS on PLC : Bad CRC, Fake read bomb
-        - Accidentally did this already while trying to synchronise the communication
-        - But how is this related to OS vulnerability
-    - DoS on Docker container
-        - Needs more research
-        - This could be a bonus to os
-
-Attacks : Done by 24th Jan
-- Have two more attack vector
-- Do combinations of attack. Attack at different times, attack at the same time
-- Express the attack in MITRE framework : more industrialised
-
-Draft Dissertation : Done by 25th Jan
-- Rough structure of the dissertation
-
-Analysis :
-- Time series analysis of the traffic
-- Show correlation/characteristics of the normal traffic
-- Create matrix to be able to deduce abnormal traffic during attacks
-
-Methodology and Result : Done by 15th Feb
