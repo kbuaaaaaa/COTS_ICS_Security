@@ -189,3 +189,14 @@
 
 ## 30 JAN 2023
 * *6 hours* Attacking workstation
+
+## 3 FEB 2023
+* *1 hour* Read example dissertations
+* *4 hours* Write background section
+
+## 4 FEB 2023
+* *7 hours* Write backgroung section
+
+## 5 FEB 2023
+* *7 hours* Write background section
+* *1 hour* Research BlackEnergy

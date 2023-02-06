@@ -18,4 +18,4 @@ Some attack links :
 - FUD payload : https://infosecwriteups.com/how-i-am-winning-battle-with-windows-10-and-11-security-and-avoiding-detection-6ea9f954b2a7
 - Persistence 1 : https://resources.infosecinstitute.com/topic/how-to-attack-windows-10-machine-with-metasploit-on-kali-linux/
 - Persistence 2 : https://hackmag.com/security/persistence-cheatsheet/
-
+- Microsoft HTTP Protocol Stack Denial Of Service :https://packetstormsecurity.com/files/166730/Microsoft-HTTP-Protocol-Stack-Denial-Of-Service.html
