@@ -19,3 +19,5 @@ Some attack links :
 - Persistence 1 : https://resources.infosecinstitute.com/topic/how-to-attack-windows-10-machine-with-metasploit-on-kali-linux/
 - Persistence 2 : https://hackmag.com/security/persistence-cheatsheet/
 - Microsoft HTTP Protocol Stack Denial Of Service :https://packetstormsecurity.com/files/166730/Microsoft-HTTP-Protocol-Stack-Denial-Of-Service.html
+- Win32k : exploit/windows/local/cve_2022_21882_win32k
+- Brendan hack : https://medium.com/independent-security-evaluators/creating-av-resistant-malware-part-1-7604b83ea0c0

@@ -200,3 +200,17 @@
 ## 5 FEB 2023
 * *7 hours* Write background section
 * *1 hour* Research BlackEnergy
+
+## WEEK 5
+
+## 6 FEB 2023
+* *4 hours* Finish background
+* *2 hours* Gather related work papers
+
+## 8 FEB 2023
+* *7 hours* Write related work
+
+## 9 FEB 2023
+* *2 hours* Study anomaly dectection/ ROC curve
+## 10 FEB 2023
+* *4 hours* Prepare for data collection
