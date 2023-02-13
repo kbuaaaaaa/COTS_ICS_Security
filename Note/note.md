@@ -21,3 +21,4 @@ Some attack links :
 - Microsoft HTTP Protocol Stack Denial Of Service :https://packetstormsecurity.com/files/166730/Microsoft-HTTP-Protocol-Stack-Denial-Of-Service.html
 - Win32k : exploit/windows/local/cve_2022_21882_win32k
 - Brendan hack : https://medium.com/independent-security-evaluators/creating-av-resistant-malware-part-1-7604b83ea0c0
+- Colefire : https://www.coalfire.com/the-coalfire-blog/powershell-in-memory-injection-using-certutil-exe

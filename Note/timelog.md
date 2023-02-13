@@ -212,5 +212,15 @@
 
 ## 9 FEB 2023
 * *2 hours* Study anomaly dectection/ ROC curve
+
 ## 10 FEB 2023
 * *4 hours* Prepare for data collection
+
+## 11 FEB 2023
+* *6 hours* Fuzzing around antivirus
+
+## 12 FEB 2023
+* *7 hours* Attempt at PrintNightmare
+
+## 13 FEB 2023
+* *2 hours* Final changes to attacks
