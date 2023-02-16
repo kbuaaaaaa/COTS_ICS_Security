@@ -225,3 +225,7 @@
 ## WEEK 6
 ## 13 FEB 2023
 * *2 hours* Final changes to attacks
+
+## 16 FEB 2023
+* *7 hours* Collecting data in parallel with writing about virtual testbed
+* *1 hour* Write about virtual testbed
