@@ -230,3 +230,6 @@
 * *7 hours* Collecting data in parallel with writing about virtual testbed
 * *1 hour* Write about virtual testbed
 * *3 hour* Collect more data
+
+## 17 FEB 2023
+* *6 hours* Collecting data in parallel with writing about virtual testbed
