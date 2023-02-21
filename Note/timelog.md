@@ -234,3 +234,17 @@
 ## 17 FEB 2023
 * *6 hours* Collecting data in parallel with writing about virtual testbed
 * *4 hours* Data preprocessing
+
+## 18 FEB 2023
+* *8 hours* Data preprocessing
+* *4 hours* Data preprocessing while writing virtual testbed in the diss
+
+## 19 FEB 2023
+* *5 hours* Data Preprocessing
+* *4 hours* More problems with data
+
+## Week 7
+
+## 20 FEB 2023
+* *2 hours* Capture traffic evaluation set
+* *10* hours finish virtual testbed chapter (at 1am)
