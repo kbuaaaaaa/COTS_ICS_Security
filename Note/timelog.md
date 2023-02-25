@@ -248,3 +248,17 @@
 ## 20 FEB 2023
 * *2 hours* Capture traffic evaluation set
 * *10* hours finish virtual testbed chapter (at 1am)
+
+## 21 FEB 2023
+* *4 hours* Fixing dataset
+
+## 22 FEB 2023
+* *2 hours* Re capturing traffic
+
+## 23 FEB 2023
+* *3 hours* Recapturing dataset
+* *3 hours* Proprocessing again
+* *5 hour* Train models
+
+## 24 FEB 2023
+* *5 hours* Modify testbed
