@@ -261,4 +261,8 @@
 * *5 hour* Train models
 
 ## 24 FEB 2023
-* *5 hours* Modify testbed
+* *10 hours* Modify testbed
+
+## 25 FEB 2023
+* *4 hours* Collect new data
+* *6 hours* Finding good model/feature
