@@ -266,3 +266,6 @@
 ## 25 FEB 2023
 * *4 hours* Collect new data
 * *6 hours* Finding good model/feature
+
+## 26 FEB 2023
+* *9 hours* Calculate network entropy, anomaly detection, graphs
