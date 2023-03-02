@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <project xmlns:ns1="http://www.plcopen.org/xml/tc6_0201" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.plcopen.org/xml/tc6_0201">
   <fileHeader companyName="Unknown" productName="Unnamed" productVersion="1" creationDateTime="2022-12-13T19:44:02"/>
-  <contentHeader name="Unnamed" modificationDateTime="2023-01-04T14:22:22">
+  <contentHeader name="Unnamed" modificationDateTime="2023-02-20T19:54:37">
     <coordinateInfo>
       <fbd>
         <scaling x="10" y="10"/>
@@ -55,12 +55,7 @@
                 <BOOL/>
               </type>
             </variable>
-            <variable name="Height_In" address="%IW0">
-              <type>
-                <UINT/>
-              </type>
-            </variable>
-            <variable name="Height_Out" address="%QW0">
+            <variable name="Height" address="%IW0">
               <type>
                 <UINT/>
               </type>
@@ -366,7 +361,7 @@
               <connectionPointOut>
                 <relPosition x="82" y="20"/>
               </connectionPointOut>
-              <expression>Height_In</expression>
+              <expression>Height</expression>
             </inVariable>
             <outVariable localId="28" height="30" width="50" negated="false">
               <position x="510" y="240"/>
@@ -397,7 +392,7 @@
               <connectionPointOut>
                 <relPosition x="82" y="10"/>
               </connectionPointOut>
-              <expression>Height_In</expression>
+              <expression>Height</expression>
             </inVariable>
             <inVariable localId="30" height="30" width="90" negated="false">
               <position x="240" y="440"/>
@@ -470,7 +465,7 @@
               <connectionPointOut>
                 <relPosition x="90" y="10"/>
               </connectionPointOut>
-              <expression>Height_In</expression>
+              <expression>Height</expression>
             </inVariable>
             <outVariable localId="34" height="30" width="90" negated="false">
               <position x="420" y="990"/>

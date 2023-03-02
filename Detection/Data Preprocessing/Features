@@ -28,4 +28,4 @@ Attack : bool
 
 filter list : https://medium.com/hacker-toolbelt/wireshark-filters-list-983c49468a45
 
-tshark -r normal_traffic3.pcap -E header=y -E separator=, -T fields -e eth.src -e eth.dst -e eth.type -e ip.src -e ip.dst -e ip.version -e ip.hdr_len -e ip.dsfield -e ip.len -e ip.id -e ip.flags -e ip.frag_offset -e ip.ttl -e ip.proto -e tcp.srcport -e tcp.dstport -e tcp.seq -e tcp.ack -e tcp.hdr_len -e tcp.flags -e tcp.window_size -e tcp.time_delta -e tcp.time_relative > normal_traffic3.csv
+tshark -r win32k.pcap -E header=y -E separator=, -T fields -e eth.src -e eth.dst -e eth.type -e ip.src -e ip.dst -e ip.version -e ip.hdr_len -e ip.dsfield -e ip.len -e ip.id -e ip.flags -e ip.frag_offset -e ip.ttl -e ip.proto -e tcp.srcport -e tcp.dstport -e tcp.seq -e tcp.ack -e tcp.hdr_len -e tcp.flags -e tcp.window_size -e tcp.time_delta -e tcp.time_relative > win32k.csv

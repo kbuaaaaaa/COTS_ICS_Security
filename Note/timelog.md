@@ -269,3 +269,11 @@
 
 ## 26 FEB 2023
 * *9 hours* Calculate network entropy, anomaly detection, graphs
+
+## Week 8
+## 28 FEB 2023
+* *5 hours* Make diagrams and tables for the diss
+
+## 1 March 2023
+* *4 hours* Reduce noise in dataset
+* *3 hours* Adjust detection parameters
