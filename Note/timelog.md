@@ -277,3 +277,6 @@
 ## 1 March 2023
 * *4 hours* Reduce noise in dataset
 * *3 hours* Adjust detection parameters
+
+## 2 March 2023
+* *8 hrs* Finalise model, plot evaluation
