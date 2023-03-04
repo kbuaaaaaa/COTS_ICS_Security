@@ -279,4 +279,10 @@
 * *3 hours* Adjust detection parameters
 
 ## 2 March 2023
-* *8 hrs* Finalise model, plot evaluation
+* *8 hours* Finalise model, plot evaluation
+
+## 3 March 2023
+* *7 hours* Write 40% of the attack chapter in the dissertation
+
+## 4 March 2023
+* *8 hours* Write 40% more of the attack chaper
