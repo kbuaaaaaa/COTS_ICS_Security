@@ -264,7 +264,7 @@
 * *10 hours* Modify testbed
 
 ## 25 FEB 2023
-* *4 hours* Collect new data
+* *4 hours* Collect new data again
 * *6 hours* Finding good model/feature
 
 ## 26 FEB 2023
@@ -286,3 +286,8 @@
 
 ## 4 March 2023
 * *8 hours* Write 40% more of the attack chaper
+
+## 5 March 2023
+* *6 hours* Finish the last 20% of the attack chapter
+* *1 hour* Plan the structure of the evaluation chapter
+* *2 hours* Get all the plots ready for the evaluation chapter
