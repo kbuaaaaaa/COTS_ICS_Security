@@ -291,3 +291,11 @@
 * *6 hours* Finish the last 20% of the attack chapter
 * *1 hour* Plan the structure of the evaluation chapter
 * *2 hours* Get all the plots ready for the evaluation chapter
+
+## Week 9
+## 8 March 2023
+* *7 hours* Filter data again to make better plot
+
+## 9 March 2023
+* *4 hours* Finalise the plots
+* *5 hours* Realise I made a mistake long ago and restart everything with the same script (Re-pre-process)
