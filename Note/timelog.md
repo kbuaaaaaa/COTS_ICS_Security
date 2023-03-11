@@ -299,3 +299,8 @@
 ## 9 March 2023
 * *4 hours* Finalise the plots
 * *5 hours* Realise I made a mistake long ago and restart everything with the same script (Re-pre-process)
+
+## 10 March 2023
+* *3.5 bours* Finally got all plots ready
+* *3 hours* Write evaluation
+* *3 hours* Arrange plots in the dissertation
