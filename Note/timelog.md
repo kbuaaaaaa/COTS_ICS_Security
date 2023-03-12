@@ -304,3 +304,9 @@
 * *3.5 bours* Finally got all plots ready
 * *3 hours* Write evaluation
 * *3 hours* Arrange plots in the dissertation
+
+## 11 March 2023
+* *7 hours* Write evaluation
+
+## 12 March 2023
+* *9 hours* Finish evaluation
