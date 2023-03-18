@@ -310,3 +310,15 @@
 
 ## 12 March 2023
 * *9 hours* Finish evaluation
+
+## Week 10
+
+## 16 March 2023
+* *3 hours* Planing and researching new topics for the background
+
+## 17 March 2023
+* *8 hours* Write the PLC part of the background
+
+## 18 March 2023
+* *6 hours* Finish the PLC part of the background
+* *3 hours* Pulling and summarising original ml model paper
