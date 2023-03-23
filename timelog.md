@@ -341,3 +341,8 @@
 * *1 hour* Write additonal tools
 * *1 hour* Write Experimental trial setup
 * *1 hour* Write evaluation justification.
+
+## 23 March 2023
+* *2 hours* Proof read and edit
+* *1 hour* Clean up references
+* *5 hours* Write conclusion and abstract
