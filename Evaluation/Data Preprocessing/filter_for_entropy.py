@@ -2,8 +2,7 @@ import pandas as pd
 import numpy as np
 import glob
 
-# files = ['arp','combination','injection','readbomb','recon','synflood']
-files = ['normal3']
+files = ['arp','combination','injection','readbomb','recon','synflood']
 for file in files:
     data = pd.read_csv('normal/'+file+'.csv')
     date = data['date']
