@@ -345,4 +345,8 @@
 ## 23 March 2023
 * *2 hours* Proof read and edit
 * *1 hour* Clean up references
-* *5 hours* Write conclusion and abstract
+* *5 hours* I ended up just fixing the structure of the diss again
+
+## 24 March 2023
+* *1 hours* Making sure I link everything to the aims and objs.
+* *4 houxrs* FINALLY CONCLUSION
