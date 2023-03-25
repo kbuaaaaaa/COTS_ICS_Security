@@ -350,3 +350,6 @@
 ## 24 March 2023
 * *1 hours* Making sure I link everything to the aims and objs.
 * *4 houxrs* FINALLY CONCLUSION
+
+## 25 March 2023
+* *4 hours* Write abstract and acknowledgement
