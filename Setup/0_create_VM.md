@@ -23,6 +23,16 @@ To create a Windows10 VM, following these steps:
 * Start the VM and let the Window installer run itself.
 * Do the same step for the second Windows10 VM
 
+One VM will be the HMI and one will be workstation
+
+We will also want to create shared folder, so that the source file can be shared with the VMs.
+We will mount Virtual_testbed > HMI to the HMI machine and Virtual_testbed > Workstation to the workstation machine
+We can do this by:
+
+* For each VM go to Settings > Shared Folders
+* Add shared folder with the following settings for each machine. The folder path is your path to the Virtual_testbed source code folder. ![](images/hmimount.png) ![](images/workstationmount.png)
+* Turn on the VM and click Devices > Insert Guest Additions CD Image
+
 ## Pfsense router
 The ISO image for the router can be downloaded [here](https://www.pfsense.org/download/).
 You must choose the options shown below.
