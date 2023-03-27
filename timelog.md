@@ -358,3 +358,6 @@
 * *3 hours* Record a demo of the whole testbed
 * *2 hours* Process percentage of impact to improve evaluation
 * *2 hours* Fixing grammartical mistakes in the diss
+
+## 27 March 2023
+* *5 hours* Making build instruction
