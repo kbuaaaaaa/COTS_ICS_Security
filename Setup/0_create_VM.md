@@ -7,10 +7,6 @@ There will be 5 virtual machines in the virtual testbed. Consists of:
 
 The following section will give instruction on creating the virtual machines.
 
-## Kali Linux
-The setup instruction for Kali Linux on VirtualBox can be found on the Kali Linux official website, [here](https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/).
-
-
 ## Windows 10
 The ISO image for Windows 10 can be downloaded [here](https://www.microsoft.com/en-gb/software-download/windows10ISO) (select the 64 bit).
 
@@ -32,6 +28,14 @@ We can do this by:
 * For each VM go to Settings > Shared Folders
 * Add shared folder with the following settings for each machine. The folder path is your path to the Virtual_testbed source code folder. ![](images/hmimount.png) ![](images/workstationmount.png)
 * Turn on the VM and click Devices > Insert Guest Additions CD Image
+
+
+## Kali Linux
+The setup instruction for Kali Linux on VirtualBox can be found on the Kali Linux official website, [here](https://www.kali.org/docs/virtualization/install-virtualbox-guest-vm/).
+
+After that, create a shared folder mapping to the Virtual_testbed > Attacker folder. ![](images/attackershared.png).
+
+Copy the content of the folder into File System/var/www/html/
 
 ## Pfsense router
 The ISO image for the router can be downloaded [here](https://www.pfsense.org/download/).
