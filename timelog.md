@@ -353,3 +353,8 @@
 
 ## 25 March 2023
 * *4 hours* Write abstract and acknowledgement
+
+## 26 March 2023
+* *3 hours* Record a demo of the whole testbed
+* *2 hours* Process percentage of impact to improve evaluation
+* *2 hours* Fixing grammartical mistakes in the diss
