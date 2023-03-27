@@ -1,4 +1,4 @@
-## Step 4: Runing the containers for the first time
+## Step 3: Runing the containers for the first time
 
 All our VMs are ready but we still have some setting up to do with Docker containers. First, to start running everything, start a terminal at the Virtual_testbed directory and command `docker compose up`. Docker will start fulling images and you can just wait.
 
@@ -20,7 +20,3 @@ We can then start setting up each containers.
 * Go to adds-on and install Simulink. ![](images/addon.png)
 * The model folder should already be mapped to the container so you will find it on the sidebar. Double click on Water_Tank.prj and wait. ![](images/prj.png) 
 * Now just press Run. ![](images/run.png)
-
-
-
-### Run everything together and it should work perfectly

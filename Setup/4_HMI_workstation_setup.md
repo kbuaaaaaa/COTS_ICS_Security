@@ -1,4 +1,4 @@
-## Step 3: Setting up the HMI and the workstation
+## Step 4: Setting up the HMI and the workstation
 
 
 ### Setup the HMI
@@ -19,3 +19,6 @@ To set up the process monitor, follow these steps:
 ### Setup the workstation
 
 Setting up the workstation is not complicated at all, just make sure you have connections to both network. ![](images/pingtest.png) Then download open PLC editor from [here](https://openplcproject.com/download/). When everything is running, the PLC webserver should be available to you on 192.168.88.10:8080.
+
+
+### Run everything together and it should work perfectly
