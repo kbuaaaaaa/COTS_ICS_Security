@@ -361,3 +361,6 @@
 
 ## 27 March 2023
 * *5 hours* Making build instruction
+
+## 28 March 2023
+* *6 hours* Editing disseration according to friends' feedbacks
