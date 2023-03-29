@@ -364,3 +364,7 @@
 
 ## 28 March 2023
 * *6 hours* Editing disseration according to friends' feedbacks
+
+## 29 March 2023
+* *7 hours* Make slides for presentation + record slide animation
+* *3 hours* Make Script for presentation
