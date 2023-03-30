@@ -359,6 +359,7 @@
 * *2 hours* Process percentage of impact to improve evaluation
 * *2 hours* Fixing grammartical mistakes in the diss
 
+## Week 12
 ## 27 March 2023
 * *5 hours* Making build instruction
 
@@ -368,3 +369,7 @@
 ## 29 March 2023
 * *7 hours* Make slides for presentation + record slide animation
 * *3 hours* Make Script for presentation
+
+## 30 March 2023
+* *4 hours* Voice over the presentation
+* *2 hours* Edit the video and audio.
